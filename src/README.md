@@ -1,7 +1,8 @@
 ---
 title: Server Config Backups
 ---
-type="text/javascript">(function(w,s){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src="https://cdn.pagesense.io/js/webally/f2527eebee974243853bcd47b32631f4.js";var x=document.getElementsByTagName("script")[0];x.parentNode.insertBefore(e,x);})(window,"script");</script>
+<script type="text/javascript">(function(w,s){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src="https://cdn.pagesense.io/js/webally/f2527eebee974243853bcd47b32631f4.js";var x=document.getElementsByTagName("script")[0];x.parentNode.insertBefore(e,x);})(window,"script");</script>
+
 ```sh
  __ .__..  ..___._..__    .__ .__. __ .  ..  ..__  __.   .  ..___
 /  `|  ||\ |[__  | [ __   [__)[__]/  `|_/ |  |[__)(__    |\/|[__ 
@@ -28,11 +29,11 @@ edit --set-editor
 ## edit httpd.conf
 
 1. Add and commit the file as it is now.
-1. Open the file in `nano` and let me make changes
-1. When the file closed I should be prompted to describe what I changed
-1. That description then gets committed as the commit message to git with the new file again gets pushed to the Private Github repo.
-1. I can do this in `Perl`, `Python`, `bash`, `php`, `node` and for that matter `C++`, `Deno` or `Go`. But Ill choose something that I know will be installed anyway so to not bloat the server. So either Node, Python, Perl, or PHP. Php can have some strange issues with shell exec scripts, I'm not sure if Node can run as Sudo without the user being sudo. The quickest will be Bash script, just to prove the concept to myself first.
+2. Open the file in `nano` and let me make changes
+3. When the file closed I should be prompted to describe what I changed
+4. That description then gets committed as the commit message to git with the new file again gets pushed to the Private Github repo.
+5. I can do this in `Perl`, `Python`, `bash`, `php`, `node` and for that matter `C++`, `Deno` or `Go`. But Ill choose something that I know will be installed anyway so to not bloat the server. So either Node, Python, Perl, or PHP. Php can have some strange issues with shell exec scripts, I'm not sure if Node can run as Sudo without the user being sudo. The quickest will be Bash script, just to prove the concept to myself first.
 
 I'll document this in a new doc...
 
-[Automated GIT Config Backups](configBackups/README.md)
+- [Automated GIT Config Backups](configBackups/README.md)
