@@ -2,7 +2,7 @@ input: src
 output: public
 url: http://backup.docs.cronje.me
 branding:
-  title: CRONje.ME Backup Docs
+  title: CRONje.ME | Backup Docs
   label: Docs
 favicon: ./favicon.png
 links:
